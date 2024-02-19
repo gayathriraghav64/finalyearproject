@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background-image: url("sunbackground.png"); 
+}
+.desktop {
+    /* background-color: #000000;
+    background-image: url("sunbg.png"); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .overlap-wrapper {
+    /* background-color: #000000; */
+    width: 1440px;
+    height: 1024px;
+}
+
+.desktop .overlap {
+    position: relative;
+    width: 1392px;
+    height: 1024px;
+}
+
+.desktop .overlap-group {
+    position: absolute;
+    width: 1392px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+}
+
+.desktop .sunspot {
+    position: absolute;
+    width: 983px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.desktop .rectangle {
+    width: 226px;
+    top: 50%;
+    left: 46%;
+    position: absolute;
+    height: 73px;
+    border-radius: 36px;
+    background: linear-gradient(180deg, rgba(255, 96.7, 7.65, 0.61) 0%, rgba(255, 199.44, 91.59, 0.8) 100%);
+}
+
+.desktop .text-wrapper {
+    position: absolute;
+    top: 52%;
+    left: 48%;
+    font-family: "Inria Serif", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    background: none;
+    border: 0;
+    cursor:grab;
+}
+
+.desktop .div {
+    width: 266px;
+    top: 50%;
+    left: 65%;
+    position: absolute;
+    height: 73px;
+    border-radius: 36px;
+    background: linear-gradient(180deg, rgba(255, 96.7, 7.65, 0.61) 0%, rgba(255, 199.44, 91.59, 0.8) 100%);
+}
+
+.desktop .text-wrapper-2 {
+    width: 256px;
+    top: 52%;
+    left: 66.5%;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    position: absolute;
+    font-family: "Inria Serif", Helvetica;
+    font-weight: 700;
+    line-height: normal;
+    background: none;
+    border: 0;
+    cursor: grab;
+}
+
+.desktop .text-wrapper-3 {
+    width: 771px;
+    top: 10%;
+    left: 50%;
+    color: #fffbfb;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 18.36px;
+    position: absolute;
+    font-family: "Inria Serif", Helvetica;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.desktop .p {
+    position: absolute;
+    width: 712px;
+    top: 36%;
+    left: 50%;
+    font-family: "Inria Serif", Helvetica;
+    font-weight: 700;
+    color: #fffbfb;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 5.04px;
+    line-height: normal;
+}
+
+.desktop .div-wrapper {
+    position: absolute;
+    width: 226px;
+    height: 73px;
+    top: 50%;
+    left: 86%;
+    border-radius: 36px;
+    background: linear-gradient(180deg, rgba(255, 96.7, 7.65, 0.61) 0%, rgba(255, 199.44, 91.59, 0.8) 100%);
+}
+
+.desktop .text-wrapper-4 {
+    position: absolute;
+    top: 19px;
+    left: 74px;
+    font-family: "Inria Serif", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    background: none;
+    border: 0;
+    cursor: grab;
+}
+
